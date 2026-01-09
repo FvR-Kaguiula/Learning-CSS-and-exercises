@@ -1,6 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Bebas+Neue&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 body::-webkit-scrollbar {
   width: 0;
 }
@@ -11,7 +9,7 @@ html {
 
 body {
   margin: 0px 4px 0px 4px;
-  padding: 0px 0px 0px 0px;
+  padding: 0px 25px 0px 25px;
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -53,8 +51,15 @@ ul {
 .header {
   display: flex;
   justify-content: center;
-  padding: 30px 0;
+  padding: 30px 75px 0px 75px;
   width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: ;
 }
 
 .button {
@@ -281,17 +286,19 @@ ul {
     }
 }
 
-/*Una consulta de medios para un ancho de 768 px: tabletas*/
-@media (min-width: 768px) {
-    /*Estilos para el ancho mínimo de 768px*/
+.slick-slider {
+    display: flex !important;
+    align-items: center;
+    gap: 3%;
 }
 
-/*Una consulta de medios para un ancho de 1200 px: escritorios*/
-@media (min-width: 1200px) {
-    /*Estilos para el ancho mínimo de 1200px*/
+.carousel__item {
+    display: flex !important;
+    flex-direction: column;
+    margin-right: 20px;
+    text-align: center;
 }
 
-/*Una consulta de medios para un ancho de 1400 px: pantallas anchas*/
-@media (min-width: 1400px) {
-    /*Estilos para el ancho mínimo de 1400px*/
+article.section_work {
+    padding: 0px 50px 0px 50px;
 }
