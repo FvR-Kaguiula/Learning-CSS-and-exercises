@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aprende diseño web en línea con nuestro curso integral. HTML, CSS, diseño responsivo y UX/UI con profesores expertos.">
+    <meta name="keywords" content="curso de diseño web, HTML, CSS, diseño responsivo, UX/UI">
+    <meta name="author" content="Curso de Diseño Web">
+    <title>Curso de Diseño Web</title>
+    <link rel="stylesheet" href="styles_1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">🎨 Curso de Diseño Web con Inteligencia Artificial</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegación">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link" href="#about">Sobre el Curso</a>
+                        <a class="nav-link" href="#teachers">Maestros</a>
+                        <a class="nav-link" href="#reviews">Reseñas</a>
+                        <a class="nav-link" href="#register">Inscribirse</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+    <section id="about">
+        <h2>Sobre el Curso</h2>
+        <p>Aprende los conceptos fundamentales del diseño web, desde la teoría hasta la práctica. Nuestro curso integral cubre todo lo que necesitas para convertirte en un diseñador web profesional:</p>
+        <ul>
+            <li>Conceptos básicos de HTML5 y CSS3</li>
+            <li>Principios de diseño visual y UX</li>
+            <li>Trabajo con herramientas gráficas modernas</li>
+            <li>Creación de sitios web totalmente responsivos</li>
+            <li>Proyectos reales y tareas prácticas</li>
+            <li>Diseño centrado en el usuario (UX/UI)</li>
+        </ul>
+    </section>
+
+    <section id="teachers">
+        <h2>Nuestros Maestros Expertos</h2>
+        <p>Aprende de profesionales con años de experiencia en la industria del diseño web:</p>
+        <div>
+            <h3>👩‍💼 Anna Ivánova</h3>
+            <p><strong>Diseñadora Web Profesional</strong></p>
+            <p>Con 10 años de experiencia, Anna se especializa en la creación de interfaces adaptativas y diseño responsivo. Ha liderado proyectos para empresas Fortune 500.</p>
+        </div>
+        <div>
+            <h3>👨‍💼 Ígor Petrov</h3>
+            <p><strong>Experto en Diseño UX/UI</strong></p>
+            <p>Experto en diseño de experiencia de usuario, imparte clases magistrales y cursos especializados sobre mejora de la experiencia y la interfaz de usuario.</p>
+        </div>
+    </section>
+
+    
+    <section id="reviews">
+        <h2>Reseñas de Estudiantes</h2>
+        <p>Mira lo que dicen nuestros estudiantes sobre el curso:</p>
+        <blockquote>
+            <p>"¡Este es el mejor curso de diseño web que he tomado! Aprendí a crear mis propios sitios web profesionales desde cero."</p>
+            <p><strong>— María García, 16 años</strong></p>
+        </blockquote>
+        <blockquote>
+            <p>"¡Excelentes profesores, mucha práctica y soporte! Recomiendo este curso a cualquiera que quiera aprender diseño web."</p>
+            <p><strong>— Alexey Volkov, 14 años</strong></p>
+        </blockquote>
+    </section>
+
+    <section id="register">
+        <h2>Inscríbete en el Curso</h2>
+        <p>¡No pierdas la oportunidad de dominar el diseño web! Completa el formulario a continuación para registrarte en nuestro curso y comienza tu viaje como diseñador web profesional.</p>
+        <form id="registrationForm">
+            <div class="mb-3">
+                <label for="name" class="form-label">Nombre Completo</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Ingresa tu nombre completo" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Correo Electrónico</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Ingresa tu correo electrónico" required>
+            </div>
+            <div class="mb-3">
+                <label for="phone" class="form-label">Teléfono (Opcional)</label>
+                <input type="tel" class="form-control" id="phone" name="phone" placeholder="Ingresa tu número de teléfono">
+            </div>
+            <div class="mb-3">
+                <label for="age" class="form-label">Edad</label>
+                <input type="number" class="form-control" id="age" name="age" min="13" max="120" placeholder="Ingresa tu edad" required>
+            </div>
+            <div class="mb-3">
+                <label for="experience" class="form-label">Experiencia Previa</label>
+                <select class="form-control" id="experience" name="experience" required>
+                    <option value="">Selecciona tu nivel</option>
+                    <option value="beginner">Principiante</option>
+                    <option value="intermediate">Intermedio</option>
+                    <option value="advanced">Avanzado</option>
+                </select>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="terms" name="terms" required>
+                <label class="form-check-label" for="terms">Acepto los términos y condiciones</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Inscribirse Ahora</button>
+        </form>
+    </section>
+
+    </main>
+
+    <footer>
+        <p>© 2025 Curso de Diseño Web. Todos los derechos reservados.</p>
+        <p>Contacto: <a href="mailto:info@cursodiseñoweb.com">info@cursodiseñoweb.com</a> | Teléfono: <a href="tel:+34900123456">+34 900 123 456</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UlQSkh6+O8gV7geCkAws34r5VJ3qjSSv" crossorigin="anonymous"></script>
+</body>
+</html>

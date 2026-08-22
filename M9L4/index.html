@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina web de prueba - Cocina Japonesa</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Iconos (FontAwesome) para el Logotipo y redes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbarMain" data-bs-offset="100">
+    <!-- Navegación (Menu) -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbarMain">
+        <div class="container">
+            <!-- Logotipo -->
+            <a class="navbar-brand" href="#inicio">
+                <i class="fa-solid fa-bowl-rice"></i> Oishii Cocina
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#recetas">Recetas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#chefs">Nuestros Chefs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#lugares">Reseñas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio">
+        <div class="container">
+            <h1 class="hero-title">El Arte de la Cocina Japonesa</h1>
+            <p class="lead mb-4">Descubre sabores auténticos, técnicas milenarias y los mejores secretos culinarios.</p>
+            <a href="#recetas" class="btn btn-custom">Ver Recetas</a>
+        </div>
+    </section>
+
+    <!-- Sección de Recetas -->
+    <section id="recetas" class="container">
+        <h2 class="section-title">Recetas Destacadas</h2>
+        <div class="row">
+            <!-- Receta 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Ramen Tonkotsu">
+                    <div class="card-body">
+                        <h5 class="card-title">Ramen Tonkotsu</h5>
+                        <p class="card-text">Un caldo rico y cremoso de hueso de cerdo cocinado durante 12 horas, servido con fideos frescos, chashu y huevo marinado.</p>
+                        <a href="https://www.recetasjaponesas.com/2014/03/tonkotsu-ramen.html" class="btn btn-outline-danger btn-sm">Leer receta</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Receta 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1579871494447-9811cf80d66c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Sushi Variado">
+                    <div class="card-body">
+                        <h5 class="card-title">Nigiri Tradicional</h5>
+                        <p class="card-text">Aprende el arte de preparar el arroz de sushi perfecto y el corte de pescado fresco para crear nigiris exquisitos.</p>
+                        <a href="https://www.pequerecetas.com/receta/como-hacer-nigiri/" class="btn btn-outline-danger btn-sm">Leer receta</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Receta 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://media.istockphoto.com/id/622439992/es/foto/tempura.jpg?s=612x612&w=0&k=20&c=X0dmZPriSYr8syA6fhvVOIz1kWFNO7g5p4X-nqro7IE=" class="card-img-top" alt="Tempura">
+                    <div class="card-body">
+                        <h5 class="card-title">Tempura de Verduras</h5>
+                        <p class="card-text">La técnica para lograr un rebozado ligero, crujiente y dorado, ideal para acompañar con salsa tentsuyu.</p>
+                        <a href="https://bonviveur.com/es/recetas/tempura-de-verduras" class="btn btn-outline-danger btn-sm">Leer receta</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Chefs Estrellas -->
+    <section id="chefs" class="bg-light">
+        <div class="container">
+            <h2 class="section-title">Nuestros Chefs Estrellas</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-4 chef-card">
+                    <img src="https://images.lifestyleasia.com/wp-content/uploads/sites/6/2022/04/18170851/Chef-Tetsuya-Wakuda-1240x1240.jpg" alt="Chef Hiro" class="chef-img">
+                    <h4>Chef Tetsuya Wakuda</h4>
+                    <p class="text-muted">Especialista en Sushi (25 años de experiencia)</p>
+                    <p>Medalla de la Orden de Australia (OAM) en el marco de los honores del cumpleaños de la Reina en 2005, "por su servicio a la comunidad y al desarrollo de la cocina australiana como chef, restaurador y autor, por su formación profesional y por su apoyo a grupos benéficos"</p>
+                </div>
+                <div class="col-md-4 chef-card">
+                    <img src="https://th.bing.com/th/id/OIP.TTK0lVE5T5Ygbz7lgGFsNAHaE7?w=250&h=180&c=7&r=0&o=7&pid=1.7&rm=3" alt="Chef Yuki" class="chef-img" id="yuki_photo">
+                    <h4>Chef Yuki Sato</h4>
+                    <p class="text-muted">Maestra Pastelera Wagashi</p>
+                    <p>Yuki combina técnicas ancestrales con sabores modernos para crear postres japoneses inolvidables.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Reseñas de Lugares -->
+    <section id="lugares" class="container">
+        <h2 class="section-title">Reseñas de Lugares</h2>
+        <div class="row">
+            <div class="col-lg-6 mb-4">
+                <div class="review-box h-100 shadow-sm">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <h4>Izakaya Nonbei, Osaka</h4>
+                    <p class="text-warning mb-2">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+                    </p>
+                    <p>"Un lugar escondido en los callejones de Dotonbori. Su yakitori es simplemente de otro mundo, con un ambiente ruidoso pero acogedor que te hace sentir como un local."</p>
+                    <small class="text-muted">- Escrito por María G.</small>
+                </div>
+            </div>
+            <div class="col-lg-6 mb-4">
+                <div class="review-box h-100 shadow-sm">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <h4>Tsukiji Outer Market, Tokio</h4>
+                    <p class="text-warning mb-2">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </p>
+                    <p>"Si amas el pescado fresco, este es el paraíso. Recomiendo llegar a las 5 AM para probar el desayuno de sushi más fresco que jamás tendrás en tu vida."</p>
+                    <small class="text-muted">- Escrito por Carlos R.</small>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="bg-white">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h2 class="section-title">Contáctanos</h2>
+                    <p class="text-center mb-5">¿Tienes alguna pregunta sobre una receta o quieres colaborar? ¡Escríbenos!</p>
+                    
+                    <form class="contact-form shadow p-5-custom-mobile p-5 rounded border">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Tu Nombre" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control" placeholder="Tu Email" required>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Asunto">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="5" placeholder="Tu mensaje..." required></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-custom px-5">Enviar Mensaje</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de Página (Footer) -->
+    <footer>
+        <div class="container text-center">
+            <a href="#inicio" class="footer-logo">
+                <i class="fa-solid fa-bowl-rice"></i> Oishii Cocina
+            </a>
+            <p class="mb-4">Trayendo lo mejor de la cultura culinaria japonesa a tu mesa.</p>
+            
+            <div class="social-icons mb-4">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            
+            <div class="row text-center text-md-start justify-content-center">
+                <div class="col-md-4 text-center mb-3">
+                    <i class="fa-solid fa-location-dot text-danger mb-2"></i>
+                    <p>Av. Gastronomía 123, Ciudad de México</p>
+                </div>
+                <div class="col-md-4 text-center mb-3">
+                    <i class="fa-solid fa-envelope text-danger mb-2"></i>
+                    <p>contacto@oishiicocina.com</p>
+                </div>
+                <div class="col-md-4 text-center mb-3">
+                    <i class="fa-solid fa-phone text-danger mb-2"></i>
+                    <p>+52 555 123 4567</p>
+                </div>
+            </div>
+            
+            <hr class="border-secondary mt-4">
+            <p class="small mb-0">&copy; 2023 Pagina web de prueba. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle (Incluye Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Script simple para cerrar el menú móvil al hacer clic en un enlace -->
+    <script>
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                const navbarCollapse = document.getElementById('navbarNav');
+                if (navbarCollapse.classList.contains('show')) {
+                    const bsCollapse = new bootstrap.Collapse(navbarCollapse);
+                    bsCollapse.toggle();
+                }
+            });
+        });
+    </script>
+</body>
+</html>

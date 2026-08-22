@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head>
+<body>
+<!-- Encabezado -->
+    <header class="header">
+        <!--Menu-->
+      <nav class="header__nav main-nav">
+        <ul class="main-nav__list main-list">
+          <li class="main-list__item list-item">
+            <a class="list-item__link" href="home">Home</a>
+          </li>
+          <li class="main-list__item list-item">
+            <a class="list-item__link" href="About">About Me</a>
+          </li>
+
+          <img class="header__logo" src="img/logo.png" alt="Logo">
+
+          <li class="main-list__item list-item">
+            <a class="list-item__link" href="#skills">Work</a>
+          </li>
+          <li class="main-list__item list-item">
+            <a class="list-item__link" href="#skills">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Segmento principal -->
+    <main class="main">
+
+      <!-- Sección de vista previa -->
+      <section class="main__home home" id="home">
+        <h1 class="home__title">From algorithms to applications: Building clear and functional software</h1>
+        <button class="button home__button">Hire Me</button>
+        <button class="button home__button">Download CV</button>
+      </section>
+
+      <!-- La sección 'About me' -->
+      <section class="main__about about" id="about">
+        <h2 class="about__title title">ABOUT ME</h2>
+        <img
+            class="info-block__img"
+            src="img/portrait.jpg"
+            alt="myself"
+            width="250"
+            height="250"
+          />
+        <div class="about__info info-block">
+          <p class="info-block__text">
+            My name is Jose Canchari. I’m a Software Engineer based in Lima-Perú. I’m currently working with Webpage Desing based on CSS. I’m passionate about creating digital experiences, both in webpages and programs. My goal is to transform the idea of someone into reality with creative and functional solutions.
+          </p>
+        </div>
+      </section>
+
+    <!-- La sección 'Work' -->
+      <article class="section_work"
+        <section class="main__works works" id="works">
+          <section class="works__repositories works-container">
+            <h2 class="works__title title">My recent works</h2>
+          </section>
+        
+        <div class="carousel">
+          <div class="carousel__item">
+              <img src="/img/TestCarou.svg" alt="" class="image">
+              <p class="title">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, ipsum?</p>
+          </div>
+          <div class="carousel__item">
+              <img src="/img/TestCarou.svg" alt="" class="image">
+              <p class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, ea!</p>
+          </div>
+          <div class="carousel__item">
+              <img src="/img/TestCarou.svg" alt="" class="image">
+              <p class="title">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, ea.</p>
+          </div>
+          <div class="carousel__item">
+              <img src="/img/TestCarou.svg" alt="" class="image">
+              <p class="title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, itaque!</p>
+          </div>
+          <div class="carousel__item">
+              <img src="/img/TestCarou.svg" alt="" class="image">
+              <p class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, aperiam.</p>
+          </div>
+          <div class="carousel__item">
+              <img src="/img/TestCarou.svg" alt="" class="image">
+              <p class="title">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, maiores.</p>
+          </div>
+        </div>
+      </section>
+          <section class="works__programs works-container">
+            <div class="works__programs info-block">
+              <h3 class="work-repositories__title">Project 1</h3>
+              <img
+                  class="work-designs__img"
+                  src="img/example_1.jpg"
+                  alt="project1"
+                  width="300"
+                  height="200"
+              />
+            </div>
+          </section>
+
+          <section class="works__programs works-container">
+            <div class="works__programs info-block">
+              <h3 class="work-designs__title">Project 2</h3>
+              <img
+                  class="work-designs__img"
+                  src="img/example_2.jpg"
+                  alt="project2"
+                  width="300"
+                  height="200"
+              />
+            </div>
+          </section>
+
+          <section class="works__programs works-container">
+            <div class="works__programs info-block">
+              <h3 class="work-designs__title">Project 3</h3>
+              <img
+                  class="work-designs__img"
+                  src="img/example_3.jpg"
+                  alt="project3"
+                  width="300"
+                  height="200"
+              />
+            </div>
+          </section>
+
+        </section>
+    </main>
+    <!-- Pie de página para enlaces de redes sociales -->
+        <footer class="footer">
+        <ul class="footer__list footer-list">
+            <li class="footer-list__item list-item">
+            <a class="list-item__link" href="https://www.linkedin.com/in/jose-antonio-canchari-cespedes">LinkedIn</a>
+            </li>
+            <li class="footer-list__item list-item">
+            <a class="list-item__link" href="https://github.com/FvR-Kaguiula">GitHub</a>
+            </li>
+        </ul>
+        </footer>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
