@@ -4,7 +4,7 @@ import webbrowser
 import os
 
 # Cambia esta ruta por la carpeta donde está tu HTML, CSS, imágenes, etc.
-directorio = r"C:\Users\Jose Antonio\OneDrive\Escritorio\Python Proyectos After M3L1\CLASES CSS\M1L2"
+directorio = r"EXAMPLEDIR"
 os.chdir(directorio)
 
 # Configuraciones del servidor
